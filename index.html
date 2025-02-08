@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigasi -->
+    <nav>
+        <div class="nav-content">
+            <a href="#" class="logo">lawaTeko</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <div class="login-btn">
+                    <a href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home-section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <img src="img/emoji-kiss-fill.svg" alt="">
+            <h1>Hello World! </h1>
+        </div>
+    </section>
+
+    <!-- About-section -->
+    <section id="about" class="about">
+        <div class="section-content"  data-aos="fade-down" data-aos-offset="300" data-aos-duration="1000">
+            <h2>About Me</h2>
+            <p>Hi there! I’m theolawalata, and my journey into the world of computers began all the way back in elementary school. It all started with my dad and peers introducing me to the basics of computers, and spending countless hours playing games like <a href="https://www.counter-strike.net/">Counter Strike</a> and <a href="https://www.ageofempires.com/">Age of Empires</a> at internet cafes (warnet), but you can try both games, I think they are both fun. Those early experiences sparked a deep curiosity in me about how computers worked and what made them tick.</p>
+            <p>As I grew older, my interest evolved from just playing games to exploring the technical side of things. I began learning about hardware, software, and eventually ventured into the fascinating world of networking. My dad and friends were my first mentors, guiding me through the basics and encouraging me to dive deeper into the intricacies of technology until now.</p>
+        </div>
+    </section>
+
+    <!-- project/card - section -->
+    <section id="projects" class="projects">
+        <div class="section-content" data-aos="fade-down" data-aos-duration="1000">
+            <h2>My Projects</h2>
+            <div class="cards-container">
+                <div class="card" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50">
+                    <div class="card-image">
+                        <img src="img/card-1.jpg" alt="card-1">
+                    </div>
+                    <h3>Serinity Bridge</h3>
+                    <p>A Nostalgic View of a Tranquil Garden</p>
+                </div>
+                <div class="card"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+                    <div class="card-image">
+                        <img src="img/card-2.jpg" alt="card-2">
+                    </div>
+                    <h3>Golden Meadows</h3>
+                    <p>The Calmness of Sunset Over Open Fields</p>
+                </div>
+                <div class="card" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="img/card-3.jpg" alt="card-3">
+                    </div>
+                    <h3>Eternal Sunset</h3>
+                    <p>Timeless Beauty Reflected on Gentle Waters</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-section -->
+    <section id="contact" class="contact" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+        <h2>Messages Me</h2>
+        <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+        <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-1">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+    </section>
+
+    <!-- footer-section -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/lawateko/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/theo.lawalata.3"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/lawaTeko"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2025 lawaTeko. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS - AnimationOfScroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Boostrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
